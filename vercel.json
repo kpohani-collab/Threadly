@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm install --prefix threadly-dev",
+  "buildCommand": "npm run build --prefix threadly-dev",
+  "outputDirectory": "threadly-dev/dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
